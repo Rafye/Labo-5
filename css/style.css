@@ -1,0 +1,69 @@
+
+.Page{
+    margin:auto;
+    width: 1000px;
+    background-color: lightblue;
+
+}
+.grid-container{
+   display: grid;
+   grid-template-columns: 15px auto auto 15px;
+}
+.entete{
+    color:grey;
+
+}
+.img{
+    float: right;
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius:50%;
+    -webkit-filter: drop-shadow(2px 2px 0 black)
+                drop-shadow(-2px 2px 0 black)
+                drop-shadow(2px -2px 0 black)
+                drop-shadow(-2px -2px 0 black);
+
+filter: drop-shadow(2px 2px 0 black)
+        drop-shadow(-2px 2px 0 black)
+        drop-shadow(2px -2px 0 black)
+        drop-shadow(-2px -2px 0 black);
+    
+    
+}
+.img2{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius:50%;
+}
+.img3{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius:50%;
+}
+.img4{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius:50%;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    background-color: lightblue;
+}
+.basPage{
+    display: grid;
+    grid-template-columns: 10px 320px 5px 530px 20px;
+    column-gap: 5px;
+
+    
+}
+
+
+
+
+
